@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+ <header class="header">
+  <a href="#" class="logo" style="color: #0ef;"><i>Sindhu Edhuru</i></a>
+  <i class='bx bx-menu' id="menu-icon"></i>
+  <!-- <i class='bx bx-x' id="menu-icon"></i> -->
+
+  <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>  
+    <a href="#project">Project</a>
+    <!-- <a href="#portfolio">Portfolio</a> -->
+    <a href="#contact">Contact</a>
+  </nav>
+ </header>
+
+<!-- home section design -->
+
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Hello, It's Me</h3>
+    <h1>Sindhu Edhuru</h1>
+    <h3>And I'm a <span class="multiple-text" id="typed-output"></span></h3>
+    <p>I am a Fullstack developer.Check out some of my work in the Projects section.I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+    <!-- <div class="social-media"></div>--><br></br><br></br>
+    <a href="https://publuu.com/flip-book/442221/997374" class="btn" target="_blank">Check CV</a href>
+  </div>
+  <!-- <div>
+    <a href="https:github.com/Sindhu440">My Work</a>
+  </div> -->
+  <!-- <a href="#" class="btn">Download CV</a> -->
+  <div class="home-img">
+    <img src="it girl.jpg" alt="" style="height: 550px;width: 170%;">
+  </div>
+</section>
+
+<!-- about section design -->
+
+<section class="about" id="about">
+  <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2><br>
+    <h3>Frontend Developer</h3><br></br>
+    <p>I am a Fullstack webdeveloper with a degree in Electronics and Communication Engineering. Check out some of my work in the Projects section. Skilled in HTML, CSS, JavaScript, MySQL, Java and Springboot. I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+    <br></br>
+    <a href="#" class="btn">Read More</a>
+  </div>
+  <div class="skills">
+    <h1 style="font-size: 35px;margin-top: 10px;">Skills</h1><br></br>
+    <div class="row">
+      <ul>
+        <li class="btn">HTML</li>
+        <li class="btn">CSS</li>
+        <li class="btn">JavaScript</li>
+      </ul>
+      <ul>
+        <li class="btn">MySQL</li>
+        <li class="btn">Java</li>
+        <li class="btn"class="btn">Springboot</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- projects section design-->
+
+<section class="project" id="project">
+  <h2 class="heading">My <span>Projects</span></h2>
+
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+      <img src="web.jpg" alt="">
+      <div class="portfolio-layer">
+        <h1>Web Application</h1>
+        <p>In this application it gives overview about the Besant Technologies and the location ,Management contact list,And about the courses they are providing</p>
+        <a href="#"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="sql.jpg" alt="">
+      <div class="portfolio-layer">
+        <h1>Hotel Reservation System</h1>
+        <p>It is a web-based hotel reservation system to streamline booking process and enhance guest experience.Here we add,delete room types with description system with description based on season,room type,occupancy,manage room availiability and prevent double bookings.</p>
+        <a href="#"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="calci.jpg" alt=""style="width: 560px;" >
+      <div class="portfolio-layer">
+        <h1>Simple Calculator</h1>
+        <p>This project is all about creating a simple calculator which perform basic arthimetic operations & decimal operations.it has clear screen feature to clear display screen.
+          It will display infinity if you try to divide any number by zero.it will not display any result in case of an invalid expression. 
+    </p>
+        <a href="#"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="gray.jpg" alt=""style="height: 360px;" >
+      <div class="portfolio-layer">
+        <h1>Binary to Gray Code Converter</h1>
+        <p>In this project the binary code is converted into gray code by using 4-bit stimulator i.e, XOR gates.By putting the MSB of 1 below the axis and the MSB of 1 above the axis and reflecting the (n-1) bit code about an axis after 2n-1 rows,
+           we can obtain the n-bit gray code.It is used to reduce time complexity in solving problems,to reduce code.</p>
+        <a href="#"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact section design -->
+
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me Here</span></h2>
+
+  <form action="#">
+    <div class="input-box">
+      <input type="text" placeholder="Full Name">
+      <input type="text" placeholder="Email Address">
+    </div>
+
+    <div class="input-box">
+      <input type="number" placeholder="Mobile Number">
+      <input type="text" placeholder="Email Subject">
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Type Your Message Here!"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+  </form>
+</section>
+
+<!-- footer Design -->
+<footer class="footer">
+  <div class="footer-text">
+    <p>This is all about <span>Me</span></p>
+  </div>
+  <div class="footer-iconTop">
+    <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+  </div>
+
+</footer>
+<!-- scroll reveal -->
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- typed js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+
+<script src="portfolio.js"></script>
+
+
+</body>
+</html>
